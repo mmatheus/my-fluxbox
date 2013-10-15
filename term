@@ -1,0 +1,23 @@
+#!/bin/sh
+#Eterm --buttonbar false -O --scrollbar false --font-fx none
+#Eterm --buttonbar false -O --scrollbar false -f white
+
+BACKGROUND_CMD=
+#if [ -e $BACKGROUND_IMAGE ]
+#    then
+#        BACKGROUND_CMD="-P $BACKGROUND_IMAGE"
+#    else 
+#        BACKGROUND_CMD="-O"
+#fi
+
+#if [ $# -ge 1 ]
+   # then
+        #Eterm --buttonbar false -O --scrollbar true -f white -g 210x69+0+0 -x
+    #    Eterm --buttonbar false -O --scrollbar true -f white -g 188x57+0+0 -x
+        #Eterm --buttonbar false --scrollbar true -f white -g 188x57+0+0 -x $BACKGROUND_CMD
+   # else
+        #Eterm --buttonbar false -O --shade 50 --scrollbar false -f white -x
+#fi
+aterm -tr -sl 9999 -sh 30 +rv +sb -ls -fn 6x13 -title "<<// Walter Mesquita \\\\>>"
+
+#terminator -T  "<<// Hwarang \\\\>>"
