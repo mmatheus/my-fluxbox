@@ -18,6 +18,8 @@ BACKGROUND_CMD=
    # else
         #Eterm --buttonbar false -O --shade 50 --scrollbar false -f white -x
 #fi
-aterm -tr -sl 9999 -sh 30 +rv +sb -ls -fn 6x13 -title "<<// Walter Mesquita \\\\>>"
+#aterm -tr -sl 9999 -sh 30 +rv +sb -ls -fn 6x13 -title "<<// Walter Mesquita \\\\>>"
+
+gnome-terminal
 
 #terminator -T  "<<// Hwarang \\\\>>"
