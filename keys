@@ -76,12 +76,13 @@ Mod4 T :ToggleDecor
 
 #===========Controle Geral============
 #Terminal
-Control F12 :ExecCommand ~/.fluxbox/term
-None F11 :ExecCommand google-chrome
-Control None F10 :ExecCommand eclipse-juno
-Control None F9  :ExecCommand skype
 Control F2  :ExecCommand pcmanfm
+Control F3  :ExecCommand empathy
+Control F9  :ExecCommand skype
+Control F10 :ExecCommand eclipse-juno
 Control F11 :ExecCommand firefox
+None F11 :ExecCommand google-chrome
+Control F12 :ExecCommand ~/.fluxbox/term
 
 
 #Run
