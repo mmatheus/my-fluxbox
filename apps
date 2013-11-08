@@ -1,11 +1,28 @@
-[app] (Eclipse)
-  [Workspace]	{2}
+[app] (name=Eclipse)
+  [Workspace]	{1}
 [end]
-[app] (audacious)
+[app] (name=audacious)
   [Workspace]	{7}
 [end]
-[app] (playlist)
+[app] (name=playlist)
   [Workspace]	{7}
   [Jump]	{yes}
 [end]
-
+[app] (name=google-chrome) (class=Google-chrome) (role=browser)
+  [Workspace]	{0}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-23176-117833847-1382617565)
+  [Maximized]	{yes}
+  [Alpha]	{128 124}
+[end]
+[app] (name=sun-awt-X11-XFramePeer) (class=java-lang-Thread)
+  [Workspace]	{4}
+  [Maximized]	{yes}
+[end]
+[app] (name=vlc) (class=Vlc) (role=vlc-playlist)
+  [Workspace]	{2}
+  [Dimensions]	{763 718}
+[end]
+[app] (name=vlc) (class=Vlc) (role=vlc-main)
+  [Workspace]	{2}
+[end]
