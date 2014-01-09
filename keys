@@ -78,15 +78,19 @@ Mod4 T :ToggleDecor
 #Terminal
 Control F1  :ExecCommnad gedit ~/.fluxbox/keys
 Control F2  :ExecCommand pcmanfm
-Control F3  :ExecCommand empathy
+Control F3  :ExecCommand xcalc
 
+Control F7  :ExecCommand rdesktop 172.16.129.38 -g 1500x820
 Control F8  :ExecCommand vlc
 
 Control F9  :ExecCommand skype
-Control F10 :ExecCommand eclipse-kepler
+Control F10 :ExecCommand /home/walter.mesquita/opt/eclipse-kepler/eclipse
 Control F11 :ExecCommand firefox
 None F11 :ExecCommand google-chrome
 Control F12 :ExecCommand ~/.fluxbox/term
+
+#===== PENTAHO =====
+Mod1 Shift F12 :ExecCommand kettle
 
 
 #Run

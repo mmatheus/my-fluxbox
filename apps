@@ -9,7 +9,6 @@
   [Jump]	{yes}
 [end]
 [app] (name=google-chrome) (class=Google-chrome) (role=browser)
-  [Workspace]	{0}
 [end]
 [app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-23176-117833847-1382617565)
   [Maximized]	{yes}
@@ -25,4 +24,17 @@
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
   [Workspace]	{2}
+[end]
+[transient] (name=Eclipse) (class=Eclipse)
+  [Dimensions]	{967 759}
+  [Position]	(UPPERLEFT)	{237 20}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-23203-492967241-1384428448)
+  [Dimensions]	{1108 632}
+  [Position]	(UPPERLEFT)	{113 61}
+[end]
+[app] (name=xcalc) (class=XCalc)
+  [Dimensions]	{226 330}
+  [Position]	(UPPERLEFT)	{837 229}
+  [Sticky]	{no}
 [end]
