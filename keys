@@ -79,6 +79,7 @@ Mod4 T :ToggleDecor
 Control F1  :ExecCommnad gedit ~/.fluxbox/keys
 Control F2  :ExecCommand pcmanfm
 Control F3  :ExecCommand xcalc
+Control F4  :ExecCommand gedit
 
 Control F7  :ExecCommand rdesktop 172.16.129.38 -g 1500x820
 Control F8  :ExecCommand vlc
