@@ -20,6 +20,6 @@ BACKGROUND_CMD=
 #fi
 #aterm -tr -sl 9999 -sh 30 +rv +sb -ls -fn 6x13 -title "<<// Walter Mesquita \\\\>>"
 
-gnome-terminal
+#gnome-terminal
 
-#terminator -T  "<<// Hwarang \\\\>>"
+terminator -T  "<<// walter.mesquita@172.16.129.143 \\\\>>"

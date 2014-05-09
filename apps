@@ -9,6 +9,7 @@
   [Jump]	{yes}
 [end]
 [app] (name=google-chrome) (class=Google-chrome) (role=browser)
+  [Dimensions]	{1099 677}
 [end]
 [app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-23176-117833847-1382617565)
   [Maximized]	{yes}
