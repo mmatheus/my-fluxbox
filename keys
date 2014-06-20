@@ -95,11 +95,12 @@ Mod1 Shift F12 :ExecCommand kettle
 
 #Run
 Mod4 R :ExecCommand fbrun
-#Volume
-Mod1 Mod4 Down :ExecCommand amixer set Master 0
-Mod1 Mod4 Left :ExecCommand amixer set Master 2dB-
-Mod1 Mod4 Right :ExecCommand amixer set Master 2dB+
 
+#Brilho
+Mod1 Mod4 Left :ExecCommand xbacklight -dec 10
+Mod1 Mod4 Right :ExecCommand xbacklight -inc 10
+
+#Volume
 XF86AudioMute :ExecCommand amixer set Master 0
 XF86AudioLowerVolume :ExecCommand amixer set Master 2dB+ 
 XF86AudioRaiseVolume :ExecCommand amixer set Master 2dB+
