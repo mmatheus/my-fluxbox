@@ -79,9 +79,8 @@ Mod4 T :ToggleDecor
 #Terminal
 Control F2  :ExecCommand pcmanfm
 Control F3  :ExecCommand xcalc
-Mod1 F4  :ExecCommand gedit
+Mod1 F5  :ExecCommand sublimet
 
-Control F7  :ExecCommand rdesktop 172.16.129.38 -g 1500x820
 Control F8  :ExecCommand vlc
 
 Control F9  :ExecCommand skype
@@ -97,12 +96,13 @@ Mod1 Shift F12 :ExecCommand kettle
 #Run
 Mod4 R :ExecCommand fbrun
 #Volume
-Mod4 Next :ExecCommand /usr/bin/aumix -v -5
-Mod4 Prior :ExecCommand /usr/bin/aumix -v +5 
+Mod1 Mod4 Down :ExecCommand amixer set Master 0
+Mod1 Mod4 Left :ExecCommand amixer set Master 2dB-
+Mod1 Mod4 Right :ExecCommand amixer set Master 2dB+
 
-XF86AudioMute :Exec /usr/bin/amixer -c 1 sset PCM,0 toggle
-XF86AudioLowerVolume :Exec /usr/bin/amixer -c 1 sset PCM,0 2%- unmute
-XF86AudioRaiseVolume :Exec /usr/bin/amixer -c 1 sset PCM,0 2%+ unmute
+XF86AudioMute :ExecCommand amixer set Master 0
+XF86AudioLowerVolume :ExecCommand amixer set Master 2dB+ 
+XF86AudioRaiseVolume :ExecCommand amixer set Master 2dB+
 
 #XMMS
 Mod4 Z :ExecCommand /usr/bin/xmms -r

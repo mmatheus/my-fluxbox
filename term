@@ -22,4 +22,4 @@ BACKGROUND_CMD=
 
 #gnome-terminal
 
-terminator -T  "<<// walter.mesquita@172.16.129.143 \\\\>>"
+terminator -T  "<<// walter.mesquita \\\\>>"

@@ -8,6 +8,8 @@
 
 # Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
 
+  [exec] (Shutdown) {sudo hutdown -h now}
+
   [submenu] (Backgrounds)
     [wallpapers] (~/.fluxbox/backgrounds)
   [end]

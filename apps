@@ -1,5 +1,4 @@
 [app] (name=Eclipse)
-  [Workspace]	{1}
 [end]
 [app] (name=audacious)
   [Workspace]	{7}
@@ -16,15 +15,12 @@
   [Alpha]	{128 124}
 [end]
 [app] (name=sun-awt-X11-XFramePeer) (class=java-lang-Thread)
-  [Workspace]	{4}
-  [Maximized]	{yes}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-playlist)
   [Workspace]	{2}
   [Dimensions]	{763 718}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Workspace]	{2}
 [end]
 [transient] (name=Eclipse) (class=Eclipse)
   [Dimensions]	{967 759}
@@ -38,4 +34,16 @@
   [Dimensions]	{226 330}
   [Position]	(UPPERLEFT)	{837 229}
   [Sticky]	{no}
+[end]
+[app] (name=evince) (class=Evince)
+  [Dimensions]	{87% 84%}
+  [Position]	(UPPERLEFT)	{6% 1%}
+[end]
+[app] (name=pcmanfm) (class=Pcmanfm)
+  [Dimensions]	{59% 77%}
+  [Position]	(UPPERLEFT)	{16% 4%}
+[end]
+[app] (name=skype) (class=Skype)
+  [Dimensions]	{32% 84%}
+  [Position]	(UPPERLEFT)	{4% 5%}
 [end]
