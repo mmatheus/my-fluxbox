@@ -20,15 +20,15 @@ OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
 
 !mouse actions added by fluxbox-update_configs
-OnToolbar Mouse4 :NextWorkspace
-OnToolbar Mouse5 :PrevWorkspace
+#OnToolbar Mouse4 :NextWorkspace
+#OnToolbar Mouse5 :PrevWorkspace
 
 !mouse actions added by fluxbox-update_configs
 OnDesktop Mouse1 :hideMenus
 OnDesktop Mouse2 :workspaceMenu
 OnDesktop Mouse3 :rootMenu
-OnDesktop Mouse4 :nextWorkspace
-OnDesktop Mouse5 :prevWorkspace
+#OnDesktop Mouse4 :nextWorkspace
+#OnDesktop Mouse5 :prevWorkspace
 
 ChangeWorkspace :Exec ~/.fluxbox/changebg.sh
 
@@ -81,17 +81,18 @@ Control F2  :ExecCommand pcmanfm
 Control F3  :ExecCommand xcalc
 Mod1 F5  :ExecCommand sublimet
 
-Control F8  :ExecCommand vlc
+Control F7 :ExecCommand virtualbox
+Control F8  :ExecCommand spotify
 
 Control F9  :ExecCommand skype
-Control F10 :ExecCommand eclipse-kepler
+Control F10 :ExecCommand eclipse
 Control F11 :ExecCommand firefox
 Mod1 F11 :ExecCommand google-chrome
 Control F12 :ExecCommand ~/.fluxbox/term
 
-#===== PENTAHO =====
-Mod1 Shift F12 :ExecCommand kettle
-
+Mod4 B :ExecCommand wmbattery
+Mod4 W :ExecCommand nm-applet
+Mod4 Shift B :ExecCommand killall -9 wmbattery
 
 #Run
 Mod4 R :ExecCommand fbrun
@@ -102,7 +103,7 @@ Mod1 Mod4 Right :ExecCommand xbacklight -inc 10
 
 #Volume
 XF86AudioMute :ExecCommand amixer set Master 0
-XF86AudioLowerVolume :ExecCommand amixer set Master 2dB+ 
+XF86AudioLowerVolume :ExecCommand amixer set Master 2dB-
 XF86AudioRaiseVolume :ExecCommand amixer set Master 2dB+
 
 #XMMS
@@ -114,7 +115,7 @@ Mod4 B :ExecCommand /usr/bin/xmms -f
 Mod4 J :ExecCommand /usr/bin/xmms -j
 Mod4 S :ExecCommand /usr/bin/xmms -S
 Mod4 E :ExecCommand /usr/bin/xmms -R
-Mod4 Break :ExecCommand /usr/bin/xscreensaver-command -lock
+Mod4 L :ExecCommand /usr/bin/xscreensaver-command -lock
 
 #== Testes ==
 #None XF86WWW :ExecCommand /usr/bin/xeyes

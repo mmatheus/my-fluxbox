@@ -47,3 +47,9 @@
   [Dimensions]	{32% 84%}
   [Position]	(UPPERLEFT)	{4% 5%}
 [end]
+[app] (name=Google-chrome) (class=Google-chrome) (role=browser)
+  [Dimensions]	{75% 77%}
+  [Position]	(UPPERLEFT)	{13% 6%}
+[end]
+[app] (name=terminator) (class=Terminator)
+[end]
