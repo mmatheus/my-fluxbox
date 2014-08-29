@@ -73,26 +73,27 @@ Mod4 Shift Up :MaximizeWindow
 Mod4 M :ShowDesktop
 Mod4 End :ArrangeWindows
 Mod4 T :ToggleDecor
+Mod1 F4 :CloseWindow
 
 
 #===========Controle Geral============
-#Terminal
-Control F2  :ExecCommand pcmanfm
-Control F3  :ExecCommand xcalc
-Mod1 F5  :ExecCommand sublimet
+Mod4 E :ExecCommand pcmanfm
+Mod4 F3  :ExecCommand xcalc
+Mod4 F5  :ExecCommand sublimet
 
-Control F7 :ExecCommand virtualbox
-Control F8  :ExecCommand spotify
+Mod4 F7 :ExecCommand virtualbox
+Mod4 F8  :ExecCommand spotify
 
-Control F9  :ExecCommand skype
-Control F10 :ExecCommand eclipse
-Control F11 :ExecCommand firefox
-Mod1 F11 :ExecCommand google-chrome
-Control F12 :ExecCommand ~/.fluxbox/term
+Mod4 F9  :ExecCommand skype
+Mod4 F10 :ExecCommand eclipse
+Mod4 Shift F11 :ExecCommand firefox
+Mod4 F11 :ExecCommand google-chrome
+Mod4 F12 :ExecCommand ~/.fluxbox/term
 
 Mod4 B :ExecCommand wmbattery
-Mod4 W :ExecCommand nm-applet
 Mod4 Shift B :ExecCommand killall -9 wmbattery
+
+Mod4 W :ExecCommand nm-applet
 
 #Run
 Mod4 R :ExecCommand fbrun
@@ -107,14 +108,14 @@ XF86AudioLowerVolume :ExecCommand amixer set Master 2dB-
 XF86AudioRaiseVolume :ExecCommand amixer set Master 2dB+
 
 #XMMS
-Mod4 Z :ExecCommand /usr/bin/xmms -r
-Mod4 X :ExecCommand /usr/bin/xmms -p
-Mod4 C :ExecCommand /usr/bin/xmms -t
-Mod4 V :ExecCommand /usr/bin/xmms -s
-Mod4 B :ExecCommand /usr/bin/xmms -f
-Mod4 J :ExecCommand /usr/bin/xmms -j
-Mod4 S :ExecCommand /usr/bin/xmms -S
-Mod4 E :ExecCommand /usr/bin/xmms -R
+#Mod4 Z :ExecCommand /usr/bin/xmms -r
+#Mod4 X :ExecCommand /usr/bin/xmms -p
+#Mod4 C :ExecCommand /usr/bin/xmms -t
+#Mod4 V :ExecCommand /usr/bin/xmms -s
+#Mod4 B :ExecCommand /usr/bin/xmms -f
+#Mod4 J :ExecCommand /usr/bin/xmms -j
+#Mod4 S :ExecCommand /usr/bin/xmms -S
+#Mod4 E :ExecCommand /usr/bin/xmms -R
 Mod4 L :ExecCommand /usr/bin/xscreensaver-command -lock
 
 #== Testes ==
