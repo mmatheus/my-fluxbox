@@ -79,19 +79,19 @@ Mod1 F4 :CloseWindow
 #===========Controle Geral============
 Mod4 E :ExecCommand pcmanfm
 Mod4 F3  :ExecCommand xcalc
-Mod4 F5  :ExecCommand sublimet
+Mod4 F5  :ExecCommand brackets
 
 Mod4 F7 :ExecCommand virtualbox
 Mod4 F8  :ExecCommand spotify
 
 Mod4 F9  :ExecCommand skype
-Mod4 F10 :ExecCommand eclipse
+Mod4 F10 :ExecCommand eclipse-kepler
 Mod4 Shift F11 :ExecCommand firefox
 Mod4 F11 :ExecCommand google-chrome
 Mod4 F12 :ExecCommand ~/.fluxbox/term
 
-Mod4 B :ExecCommand wmbattery
-Mod4 Shift B :ExecCommand killall -9 wmbattery
+#Mod4 B :ExecCommand wmbattery
+#Mod4 Shift B :ExecCommand killall -9 wmbattery
 
 Mod4 W :ExecCommand nm-applet
 
